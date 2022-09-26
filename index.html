@@ -14,6 +14,7 @@
 
 <body>
   <div class="container">
+
     <h1 class="blanks">Fill in the blanks to write your address!</h1>
     <div>
       <form id="formOne">
@@ -34,11 +35,7 @@
           <input id="date" class="form-control" type="text">
         </div>
 
-        <button type="submit" class="btn">Show me the address!</button>
-      </form>
 
-
-      <form id="formtwo" class="formOne">
         <h1 class="blanks">Fill in the blanks to write the Recipients information!</h1>
         <div class="form-group">
           <label for="name">Recipients name</label>
@@ -49,28 +46,45 @@
           <input id="companyname" class="form-control" type="text">
         </div>
         <div class="form-group">
-          <label for="state2">State</label>
-          <input id="state2" class="form-control" type="text">
+          <label for="house">House</label>
+          <input id="house" class="form-control" type="text">
         </div>
         <div class="form-group">
           <label for="date2">Date</label>
           <input id="date2" class="form-control" type="text">
         </div>
 
-        <button type="submit" class="btn">Show me the Recipients information!</button>
+
+        <div class="form-group">
+          <h1 class="blanks">Fill in the inroductory line</h1>
+          <label for="introductoryline">Introductory Line</label>
+          <input id="introductoryline" class="form-control" type="introductoryline">
+        </div>
+        <div class="form-group">
+          <h1 class="blanks">Fill in your Closing Salutation!</h1>
+          <label for="salutation">Salutation</label>
+          <input id="salutation" class="form-control" type="text">
+        </div>
+
+        <div class="form-group">
+          <label for="namee">Name</label>
+          <input id="namee" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn">Show me the Letter!</button>
       </form>
     </div>
 
-    <form id="form3">
-      <div class="form-group">
-        <h1 class="blanks">Fill in the inroductory line</h1>
-        <label for="introductoryline">Introductory Line</label>
-        <input id="introductoryline" class="form-control" type="introductoryline">
-      </div>
 
-      <button type="submit" class="btn">Show me the Introductory Line!</button>
 
-    </form>
+
+
+
+
+
+
+
+
+
 
     <div id="story">
       <span class="street"></span><br>
@@ -85,7 +99,7 @@
     <div id="address2">
       <span class="name"></span><br>
       <span class="companyname"></span><br>
-      <span class="state2"></span><br>
+      <span class="house"></span><br>
       <span class="date2"></span>
     </div>
     <div id="introductoryline">
@@ -93,12 +107,28 @@
     </div>
 
 
-   {% lorem 5 p %}
-   fdhc
-   dgh
-   gdh
-   edgh
-   ebdf
+
+
+
+
+    <p class="lorem"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore ea at odit quidem modi culpa
+      excepturi
+      provident
+      deleniti eaque nesciunt, obcaecati earum animi reprehenderit quae optio sequi! Blanditiis, atque pariatur!</p>
+    <p class="lorem"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore ea at odit quidem modi culpa
+      excepturi
+      provident
+      deleniti eaque nesciunt, obcaecati earum animi reprehenderit quae optio sequi! Blanditiis, atque pariatur!</p>
+    <p class="lorem"> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore ea at odit quidem modi culpa
+      excepturi
+      provident
+      deleniti eaque nesciunt, obcaecati earum animi reprehenderit quae optio sequi! Blanditiis, atque pariatur!</p>
+
+
+    <div id="salutation">
+      <span class="salutation"></span><br>
+      <span class="namee"></span><br>
+    </div>
   </div>
 </body>
 

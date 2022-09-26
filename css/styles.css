@@ -1,5 +1,5 @@
 #story{
-  margin-left: 1000px;
+  margin-left: 1100px;
 }
 .form-control{
 width: 20%;
@@ -8,5 +8,14 @@ width: 20%;
   font-size: 20px;
 }
 #introductoryline{
-  margin-top: 20px;
+  margin-top: 15px;
+}
+.salutation{
+  margin-left: 1000px;
+}
+.namee{
+  margin-left: 1000px;
+}
+.lorem{
+  display: none;
 }

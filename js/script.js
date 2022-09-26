@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
   $("#formOne").submit(function (event) {
-   
+
     event.preventDefault();
 
     const street = $("#street").val();
@@ -9,40 +9,30 @@ $(document).ready(function () {
     const state = $("#state").val();
     const date = $("#date").val();
 
-  $(".street").text(street);
-  $(".city").text(city);
-  $(".state").text(state);
-  $(".date").text(date);
-})
+    const name = $("#name").val();
+    const companyname = $("#companyname").val();
+    const house = $("#house").val();
+    const date2 = $("#date2").val();
 
+    const introductoryline = $("#introductoryline").val();
 
-$("#formtwo").submit(function (event) {
-   
-  event.preventDefault();
+    const salutation = $("#salutation").val().toUpperCase();
+    const namee = $("#namee").val().toUpperCase();
 
-  const name = $("#name").val();
-  const companyname = $("#companyname").val();
-  const state2 = $("#state2").val();
-  const date2 = $("#date2").val();
+    $(".street").text(street);
+    $(".city").text(city);
+    $(".state").text(state);
+    $(".date").text(date);
 
-$(".name").text(name);
-$(".companyname").text(companyname);
-$(".state2").text(state2);
-$(".date2").text(date2);
+    $(".name").text(name);
+    $(".companyname").text(companyname);
+    $(".house").text(house);
+    $(".date2").text(date2);
 
+    $(".introductoryline").text(introductoryline);
 
-})
+    $(".salutation").text(salutation);
+    $(".namee").text(namee);
 
-$("#form3").submit(function(event){
-  event.preventDefault();
-
-  const introductoryline = $("#introductoryline").val();
-
-  $(".introductoryline").text(introductoryline);
-})
-
-
-
-
-
+  })
 })
